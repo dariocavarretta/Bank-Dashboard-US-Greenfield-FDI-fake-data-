@@ -3,9 +3,8 @@
 This repository contains a Shiny application that replicates the structure and functionality of a dashboard originally developed for a European central bank.  
 The dashboard provides an interactive and comprehensive overview of **Greenfield FDI inflows into the United States**, enabling quantitative researchers to explore trends across countries, sectors, and time.
 
----
 
-### ⚠️ Important: Synthetic Data
+### Important: Synthetic Data
 
 All data included in this repository is **AI-generated synthetic data**, created solely from a written prompt with **no access** to the original confidential dataset.  
 The original data cannot be shared due to confidentiality restrictions.
@@ -16,9 +15,8 @@ The purpose of this public version is to demonstrate:
 - the workflow for **data exploration**,  
 - and how the tool can be **easily adapted** to other datasets.
 
----
 
-## 📊 Data Generation Details
+## Data Generation Details
 
 The synthetic dataset consists of **5,000 observations**, designed to mimic realistic FDI patterns:
 
@@ -33,7 +31,7 @@ This ensures that:
 
 ---
 
-## 🛠️ Application Structure
+## Application Structure
 
 For convenience, all application components are contained within a **single R script**, including:
 
@@ -46,9 +44,9 @@ For convenience, all application components are contained within a **single R sc
 
 While modularization is usually recommended for larger projects, this structure makes the demo easy to transfer, review, and customize.
 
----
 
-## 🌐 Live Demo
+
+## Live Demo
 
 A deployed version of the dashboard is available at:
 
@@ -57,7 +55,7 @@ A deployed version of the dashboard is available at:
 ---
 
 
-## ▶️ How to Run Locally
+## How to Run Locally
 
 You can run the dashboard locally on any machine with R + RStudio installed.
 
@@ -95,7 +93,7 @@ shiny::runApp()
 ---
 
 
-## 🚧 Future Updates
+##nFuture Updates
 
 A broader dashboard covering **FDI flows between all countries** is currently in development.  
 A version using synthetic data will be published on GitHub **by the end of 2025**.
@@ -108,4 +106,5 @@ The updated version will include:
 - Improved architecture and modular design  
 
 ---
+
 
