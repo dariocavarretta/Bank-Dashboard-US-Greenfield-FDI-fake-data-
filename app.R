@@ -527,23 +527,6 @@ div(class = "main-panel-container",
                           )
                       )
                )
-             ),
-             
-             fluidRow(
-               column(width = 12,
-                      div(style = "background-color:#f8f9fa; border-radius:8px; padding:15px; margin-top:20px; font-size:0.9em; color:#444;",
-                          tags$strong("NOTE on Classifications: "),
-                          "All sectors, sub-sectors, clusters, and activities follow the ",
-                          tags$em("fDi Markets proprietary industry classification system"),
-                          ", developed by ",
-                          tags$em("fDi Intelligence (Financial Times)"),
-                          ". This taxonomy is designed for cross-border investment project tracking and is ",
-                          "loosely aligned with ISIC and NAICS standards but not identical. ",
-                          "Each project in fDi Markets is tagged at four levels: ",
-                          tags$strong("Cluster → Sector → Sub-Sector → Business Activity."),
-                          " Full classification details are available to subscribers within the fDi Markets data dictionary."
-                      )
-               )
              )
     ),
     
